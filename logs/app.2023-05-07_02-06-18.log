@@ -1,0 +1,77 @@
+2023-05-07 02:06:18.447 [main][2412] INFO  step_definitions.Hooks - --------Scenario: Calculator Real APR Rate-------
+2023-05-07 02:06:18.990 [main][2955] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2023-05-07 02:06:19.008 [main][2973] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-05-07 02:06:19.008 [main][2973] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-07 02:06:19.012 [main][2977] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3fdecce
+2023-05-07 02:06:19.033 [main][2998] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-05-07 02:06:19.033 [main][2998] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+2023-05-07 02:06:19.035 [main][3000] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-05-07 02:06:19.035 [main][3000] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-05-07 02:06:19.036 [main][3001] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-05-07 02:06:19.036 [main][3001] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-05-07 02:06:19.037 [main][3002] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-07 02:06:19.037 [main][3002] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-05-07 02:06:19.038 [main][3003] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6a1aab78
+2023-05-07 02:06:19.039 [main][3004] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-07 02:06:19.039 [main][3004] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-05-07 02:06:19.040 [main][3005] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4227858432 bytes (maybe)
+2023-05-07 02:06:19.040 [main][3005] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\riyad\AppData\Local\Temp (java.io.tmpdir)
+2023-05-07 02:06:19.040 [main][3005] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-07 02:06:19.040 [main][3005] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-05-07 02:06:19.041 [main][3006] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-07 02:06:19.041 [main][3006] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-07 02:06:19.042 [main][3007] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-05-07 02:06:19.042 [main][3007] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-05-07 02:06:19.052 [main][3017] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-07 02:06:19.070 [main][3035] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-07 02:06:19.070 [main][3035] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-07 02:06:19.100 [main][3065] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-07 02:06:19.100 [main][3065] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-07 02:06:19.115 [main][3080] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-05-07 02:06:19.134 [main][3099] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2023-05-07 02:06:19.145 [main][3110] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-05-07 02:06:19.145 [main][3110] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-07 02:06:19.193 [main][3158] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2023-05-07 02:06:19.193 [main][3158] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2023-05-07 02:06:19.193 [main][3158] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-07 02:06:19.194 [main][3159] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-07 02:06:19.206 [main][3171] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-05-07 02:06:19.206 [main][3171] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-07 02:06:19.206 [main][3171] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-07 02:06:19.498 [Forwarding newSession on session null to remote][3463] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 18252 (auto-detected)
+2023-05-07 02:06:19.505 [Forwarding newSession on session null to remote][3470] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-05-07 02:06:19.505 [Forwarding newSession on session null to remote][3470] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-05-07 02:06:19.655 [Forwarding newSession on session null to remote][3620] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-07 02:06:19.655 [Forwarding newSession on session null to remote][3620] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-07 02:06:19.665 [Forwarding newSession on session null to remote][3630] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 98:43:fa:ff:fe:25:70:e2 (auto-detected)
+2023-05-07 02:06:19.736 [AsyncHttpClient-1-2][3701] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-05-07 02:06:19.736 [AsyncHttpClient-1-2][3701] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-05-07 02:06:19.736 [AsyncHttpClient-1-2][3701] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a5785e0
+2023-05-07 02:06:19.775 [AsyncHttpClient-1-2][3740] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-07 02:06:19.775 [AsyncHttpClient-1-2][3740] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-05-07 02:06:19.776 [AsyncHttpClient-1-2][3741] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-05-07 02:06:19.776 [AsyncHttpClient-1-2][3741] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-05-07 02:06:19.776 [AsyncHttpClient-1-2][3741] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-05-07 02:06:20.481 [AsyncHttpClient-1-2][4446] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-07 02:06:20.608 [main][4573] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0f2d1e8828b6b57c
+2023-05-07 02:06:22.570 [main][6535] INFO  step_definitions.MortgageSteps - User is in the Mortgage Calculator Home page
+2023-05-07 02:06:22.573 [main][6538] DEBUG page_object.NavigationBar - mouse hover to the rates link
+2023-05-07 02:06:22.755 [main][6720] DEBUG page_object.NavigationBar - Clicking on the Real APR link
+2023-05-07 02:06:23.879 [main][7844] DEBUG page_object.RealApr - Waiting for the page to load
+2023-05-07 02:06:24.124 [main][8089] INFO  step_definitions.MortgageSteps - Navigate to Real Apr page
+2023-05-07 02:06:24.129 [main][8094] DEBUG page_object.RealApr - Typing the Home Price Value:200000
+2023-05-07 02:06:24.495 [main][8460] DEBUG page_object.RealApr - Typing the down payment value:15000
+2023-05-07 02:06:24.810 [main][8775] DEBUG page_object.RealApr - Typing the InterestRate Value:3
+2023-05-07 02:06:25.090 [main][9055] DEBUG page_object.RealApr - Clicking on calculate button
+2023-05-07 02:06:26.191 [main][10156] INFO  step_definitions.MortgageSteps - Real APR rate is calculated upon entering the data
+2023-05-07 02:06:26.193 [main][10158] DEBUG page_object.RealApr - Validate the real APR rate is:3.139%
+2023-05-07 02:06:26.402 [main][10367] INFO  step_definitions.MortgageSteps - Real APR rate: 3.139% is validated
+2023-05-07 02:06:26.661 [main][10626] INFO  step_definitions.Hooks - -------Scenario: Calculator Real APR Rate------

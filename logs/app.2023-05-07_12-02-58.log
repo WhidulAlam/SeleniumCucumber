@@ -1,0 +1,99 @@
+2023-05-07 00:02:59.018 [main][2405] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials-------
+2023-05-07 00:03:00.143 [main][3530] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2023-05-07 00:03:00.156 [main][3543] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-05-07 00:03:00.156 [main][3543] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-07 00:03:00.161 [main][3548] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1e43e323
+2023-05-07 00:03:00.183 [main][3570] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-05-07 00:03:00.183 [main][3570] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+2023-05-07 00:03:00.184 [main][3571] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-05-07 00:03:00.186 [main][3573] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-05-07 00:03:00.187 [main][3574] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-05-07 00:03:00.187 [main][3574] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-05-07 00:03:00.188 [main][3575] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-07 00:03:00.188 [main][3575] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-05-07 00:03:00.189 [main][3576] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @50caa560
+2023-05-07 00:03:00.190 [main][3577] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-07 00:03:00.190 [main][3577] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-05-07 00:03:00.191 [main][3578] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4227858432 bytes (maybe)
+2023-05-07 00:03:00.191 [main][3578] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\riyad\AppData\Local\Temp (java.io.tmpdir)
+2023-05-07 00:03:00.191 [main][3578] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-07 00:03:00.191 [main][3578] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-05-07 00:03:00.192 [main][3579] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-07 00:03:00.192 [main][3579] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-07 00:03:00.193 [main][3580] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-05-07 00:03:00.193 [main][3580] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-05-07 00:03:00.201 [main][3588] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-07 00:03:00.226 [main][3613] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-07 00:03:00.226 [main][3613] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-07 00:03:00.246 [main][3633] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-07 00:03:00.246 [main][3633] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-07 00:03:00.265 [main][3652] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-05-07 00:03:00.294 [main][3681] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2023-05-07 00:03:00.306 [main][3693] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-05-07 00:03:00.306 [main][3693] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-07 00:03:00.348 [main][3735] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-07 00:03:00.349 [main][3736] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-07 00:03:00.349 [main][3736] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-07 00:03:00.349 [main][3736] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-07 00:03:00.349 [main][3736] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-07 00:03:00.349 [main][3736] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-07 00:03:00.360 [main][3747] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-05-07 00:03:00.360 [main][3747] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-07 00:03:00.360 [main][3747] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-07 00:03:00.649 [Forwarding newSession on session null to remote][4036] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 32424 (auto-detected)
+2023-05-07 00:03:00.651 [Forwarding newSession on session null to remote][4038] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-05-07 00:03:00.651 [Forwarding newSession on session null to remote][4038] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-05-07 00:03:00.779 [Forwarding newSession on session null to remote][4166] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-07 00:03:00.790 [Forwarding newSession on session null to remote][4177] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-07 00:03:00.798 [Forwarding newSession on session null to remote][4185] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 98:43:fa:ff:fe:25:70:e2 (auto-detected)
+2023-05-07 00:03:00.864 [AsyncHttpClient-1-2][4251] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-05-07 00:03:00.864 [AsyncHttpClient-1-2][4251] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-05-07 00:03:00.864 [AsyncHttpClient-1-2][4251] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1f24ff49
+2023-05-07 00:03:00.897 [AsyncHttpClient-1-2][4284] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-07 00:03:00.897 [AsyncHttpClient-1-2][4284] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-05-07 00:03:00.897 [AsyncHttpClient-1-2][4284] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-05-07 00:03:00.897 [AsyncHttpClient-1-2][4284] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-05-07 00:03:00.897 [AsyncHttpClient-1-2][4284] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-05-07 00:03:01.658 [AsyncHttpClient-1-2][5045] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-07 00:03:01.768 [main][5155] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x03f2563abb1f65ed
+2023-05-07 00:03:02.844 [main][6231] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-07 00:03:03.055 [main][6442] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-07 00:03:03.118 [main][6505] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-07 00:03:03.156 [main][6543] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-07 00:03:03.390 [main][6777] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials------
+2023-05-07 00:03:03.397 [main][6784] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-07 00:03:04.928 [main][8315] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-07 00:03:05.123 [main][8510] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-07 00:03:05.189 [main][8576] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-07 00:03:05.221 [main][8608] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-07 00:03:05.472 [main][8859] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-07 00:03:05.477 [main][8864] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-07 00:03:06.699 [main][10086] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-07 00:03:06.904 [main][10291] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-07 00:03:06.972 [main][10359] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-07 00:03:07.006 [main][10393] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-07 00:03:07.192 [main][10579] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-07 00:03:07.197 [main][10584] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-07 00:03:08.754 [main][12141] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-07 00:03:08.946 [main][12333] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-07 00:03:09.008 [main][12395] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-07 00:03:09.042 [main][12429] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-07 00:03:09.226 [main][12613] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-07 00:03:09.233 [main][12620] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials-------
+2023-05-07 00:03:10.871 [main][14258] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-07 00:03:11.058 [main][14445] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-07 00:03:11.114 [main][14501] INFO  step_definitions.LoginSteps - User clicking on the login button
+2023-05-07 00:03:11.150 [main][14537] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-07 00:03:11.338 [main][14725] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials------
+2023-05-07 00:03:11.344 [main][14731] INFO  step_definitions.Hooks - --------Scenario: Check login is unsuccessful with invalid credentials-------
+2023-05-07 00:03:13.147 [main][16534] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-07 00:03:13.343 [main][16730] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-07 00:03:13.394 [main][16781] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-07 00:03:13.426 [main][16813] INFO  step_definitions.LoginSteps - User is still in login page
+2023-05-07 00:03:13.581 [main][16968] INFO  step_definitions.Hooks - -------Scenario: Check login is unsuccessful with invalid credentials------
