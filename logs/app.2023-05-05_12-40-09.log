@@ -54,4 +54,34 @@
 2023-05-05 12:40:10.518 [AsyncHttpClient-1-2][3245] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
 2023-05-05 12:40:10.519 [AsyncHttpClient-1-2][3246] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
 2023-05-05 12:40:10.519 [AsyncHttpClient-1-2][3246] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2cf76ca
-2023-05-05 12:40:10.548 [AsyncHttpClient-1-2]
+2023-05-05 12:40:10.548 [AsyncHttpClient-1-2][3275] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-05 12:40:10.549 [AsyncHttpClient-1-2][3276] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-05-05 12:40:10.549 [AsyncHttpClient-1-2][3276] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-05-05 12:40:10.549 [AsyncHttpClient-1-2][3276] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-05-05 12:40:10.549 [AsyncHttpClient-1-2][3276] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-05-05 12:40:11.109 [AsyncHttpClient-1-2][3836] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-05 12:40:11.223 [main][3950] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdb667d91dda7d8bb
+2023-05-05 12:40:12.006 [main][4733] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-05 12:40:12.228 [main][4955] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-05 12:40:12.280 [main][5007] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-05 12:40:12.320 [main][5047] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-05 12:40:14.027 [main][6754] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-05 12:40:14.251 [main][6978] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-05 12:40:14.303 [main][7030] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-05 12:40:14.333 [main][7060] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-05 12:40:16.012 [main][8739] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-05 12:40:16.224 [main][8951] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-05 12:40:16.275 [main][9002] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-05 12:40:16.301 [main][9028] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-05 12:40:17.926 [main][10653] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-05 12:40:18.145 [main][10872] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-05 12:40:18.200 [main][10927] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-05 12:40:18.230 [main][10957] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-05 12:40:19.943 [main][12670] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-05 12:40:20.175 [main][12902] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-05 12:40:20.231 [main][12958] INFO  step_definitions.LoginSteps - User clicking on the login button
+2023-05-05 12:40:20.261 [main][12988] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-05 12:40:22.085 [main][14812] INFO  step_definitions.LoginSteps - user is on the login page
+2023-05-05 12:40:22.317 [main][15044] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-05 12:40:22.368 [main][15095] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-05 12:40:22.402 [main][15129] INFO  step_definitions.LoginSteps - User is still in login page

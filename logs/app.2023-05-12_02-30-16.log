@@ -54,4 +54,76 @@
 2023-05-12 02:30:17.950 [Forwarding newSession on session null to remote][5160] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 98:43:fa:ff:fe:25:70:e2 (auto-detected)
 2023-05-12 02:30:18.021 [AsyncHttpClient-1-2][5231] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
 2023-05-12 02:30:18.022 [AsyncHttpClient-1-2][5232] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-2023-05-12 02:30:18.022 [AsyncHttpClient-1-2][5232] DEBUG io.netty.util.ResourceLeakDe
+2023-05-12 02:30:18.022 [AsyncHttpClient-1-2][5232] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6fc917a5
+2023-05-12 02:30:18.062 [AsyncHttpClient-1-2][5272] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-12 02:30:18.062 [AsyncHttpClient-1-2][5272] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-05-12 02:30:18.062 [AsyncHttpClient-1-2][5272] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-05-12 02:30:18.062 [AsyncHttpClient-1-2][5272] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-05-12 02:30:18.062 [AsyncHttpClient-1-2][5272] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-05-12 02:30:18.794 [AsyncHttpClient-1-2][6004] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-12 02:30:18.958 [main][6168] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x2a58a14f3bbbc167
+2023-05-12 02:30:20.217 [main][7427] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 02:30:20.516 [main][7726] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 02:30:20.600 [main][7810] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 02:30:20.652 [main][7862] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 02:30:20.897 [main][8107] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials------
+2023-05-12 02:30:20.907 [main][8117] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-12 02:30:23.064 [main][10274] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 02:30:23.331 [main][10541] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 02:30:23.392 [main][10602] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 02:30:23.428 [main][10638] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 02:30:23.697 [main][10907] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-12 02:30:23.701 [main][10911] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-12 02:30:25.589 [main][12799] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 02:30:25.857 [main][13067] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 02:30:25.927 [main][13137] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 02:30:25.958 [main][13168] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 02:30:26.136 [main][13346] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-12 02:30:26.141 [main][13351] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-12 02:30:28.013 [main][15223] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 02:30:28.286 [main][15496] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 02:30:28.349 [main][15559] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 02:30:28.382 [main][15592] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 02:30:28.820 [main][16030] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-12 02:30:28.826 [main][16036] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials-------
+2023-05-12 02:30:30.782 [main][17992] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 02:30:31.045 [main][18255] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 02:30:31.108 [main][18318] INFO  step_definitions.LoginSteps - User clicking on the login button
+2023-05-12 02:30:31.144 [main][18354] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 02:30:31.387 [main][18597] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials------
+2023-05-12 02:30:31.390 [main][18600] INFO  step_definitions.Hooks - --------Scenario: Check login is unsuccessful with invalid credentials-------
+2023-05-12 02:30:33.233 [main][20443] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 02:30:33.520 [main][20730] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 02:30:33.579 [main][20789] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 02:30:33.613 [main][20823] INFO  step_definitions.LoginSteps - User is still in login page
+2023-05-12 02:30:33.860 [main][21070] INFO  step_definitions.Hooks - -------Scenario: Check login is unsuccessful with invalid credentials------
+2023-05-12 02:30:33.866 [main][21076] INFO  step_definitions.Hooks - --------Scenario: Calculator Real APR Rate-------
+2023-05-12 02:30:36.683 [main][23893] INFO  step_definitions.MortgageSteps - User is in the Mortgage Calculator Home page
+2023-05-12 02:30:36.690 [main][23900] DEBUG page_object.NavigationBar - mouse hover to the rates link
+2023-05-12 02:30:36.921 [main][24131] DEBUG page_object.NavigationBar - Clicking on the Real APR link
+2023-05-12 02:30:37.926 [main][25136] DEBUG page_object.RealApr - Waiting for the page to load
+2023-05-12 02:30:38.000 [main][25210] INFO  step_definitions.MortgageSteps - Navigate to Real Apr page
+2023-05-12 02:30:38.001 [main][25211] DEBUG page_object.RealApr - Typing the Home Price Value:200000
+2023-05-12 02:30:38.610 [main][25820] DEBUG page_object.RealApr - Typing the down payment value:15000
+2023-05-12 02:30:38.986 [main][26196] DEBUG page_object.RealApr - Typing the InterestRate Value:3
+2023-05-12 02:30:39.473 [main][26683] DEBUG page_object.RealApr - Clicking on calculate button
+2023-05-12 02:31:01.670 [main][48880] INFO  step_definitions.MortgageSteps - Real APR rate is calculated upon entering the data
+2023-05-12 02:31:01.671 [main][48881] DEBUG page_object.RealApr - Validate the real APR rate is:3.139%
+2023-05-12 02:31:01.809 [main][49019] INFO  step_definitions.MortgageSteps - Real APR rate: 3.139% is validated
+2023-05-12 02:31:02.092 [main][49302] INFO  step_definitions.Hooks - -------Scenario: Calculator Real APR Rate------
+2023-05-12 02:31:02.095 [main][49305] INFO  step_definitions.Hooks - --------Scenario: -------
+2023-05-12 02:31:04.810 [main][52020] INFO  step_definitions.MortgageSteps - User is in the Mortgage Calculator Home page
+2023-05-12 02:31:04.812 [main][52022] DEBUG page_object.Home - Typing the Home Price Value:300000
+2023-05-12 02:31:05.094 [main][52304] DEBUG page_object.Home - Typing the DownPayment Value:60000
+2023-05-12 02:31:05.218 [main][52428] DEBUG page_object.Home - Typing the Loan Amount Value:240000
+2023-05-12 02:31:05.365 [main][52575] DEBUG page_object.Home - Typing the InterestRate Value:3
+2023-05-12 02:31:05.498 [main][52708] DEBUG page_object.Home - Typing the loan start year value: 30
+2023-05-12 02:31:05.631 [main][52841] DEBUG page_object.Home - Typing the property tax: 5000
+2023-05-12 02:31:05.745 [main][52955] DEBUG page_object.Home - Typing the PMI:0.5
+2023-05-12 02:31:05.884 [main][53094] DEBUG page_object.Home - Typing the HOI:1000
+2023-05-12 02:31:06.013 [main][53223] DEBUG page_object.Home - Typing the Monthly HOA:100
+2023-05-12 02:31:06.137 [main][53347] DEBUG page_object.Home - Select the loan type:FHA
+2023-05-12 02:31:06.247 [main][53457] DEBUG page_object.Home - Clicking on calculate button
+2023-05-12 02:31:07.142 [main][54352] INFO  step_definitions.MortgageSteps - Total Monthly payment is calculated upon entering the data
+2023-05-12 02:31:07.143 [main][54353] DEBUG page_object.Home - Validating the total monthly payment is :$1611.85
+2023-05-12 02:31:22.574 [main][69784] INFO  step_definitions.Hooks - -------Scenario: ------

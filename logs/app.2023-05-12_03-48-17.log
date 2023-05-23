@@ -1,0 +1,129 @@
+2023-05-12 03:48:17.883 [main][2721] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials-------
+2023-05-12 03:48:18.885 [main][3723] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2023-05-12 03:48:18.897 [main][3735] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-05-12 03:48:18.897 [main][3735] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-12 03:48:18.902 [main][3740] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1442f788
+2023-05-12 03:48:18.927 [main][3765] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-05-12 03:48:18.927 [main][3765] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+2023-05-12 03:48:18.931 [main][3769] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-05-12 03:48:18.931 [main][3769] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-05-12 03:48:18.932 [main][3770] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-05-12 03:48:18.932 [main][3770] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-05-12 03:48:18.933 [main][3771] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-12 03:48:18.935 [main][3773] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-05-12 03:48:18.936 [main][3774] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @757acd7b
+2023-05-12 03:48:18.937 [main][3775] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-12 03:48:18.937 [main][3775] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-05-12 03:48:18.938 [main][3776] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4227858432 bytes (maybe)
+2023-05-12 03:48:18.939 [main][3777] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\riyad\AppData\Local\Temp (java.io.tmpdir)
+2023-05-12 03:48:18.939 [main][3777] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-12 03:48:18.940 [main][3778] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-05-12 03:48:18.941 [main][3779] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-12 03:48:18.941 [main][3779] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-12 03:48:18.943 [main][3781] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-05-12 03:48:18.943 [main][3781] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-05-12 03:48:18.954 [main][3792] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-12 03:48:18.982 [main][3820] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-12 03:48:18.982 [main][3820] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-12 03:48:19.019 [main][3857] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-12 03:48:19.019 [main][3857] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-12 03:48:19.037 [main][3875] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-05-12 03:48:19.053 [main][3891] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2023-05-12 03:48:19.066 [main][3904] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-05-12 03:48:19.066 [main][3904] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-12 03:48:19.124 [main][3962] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+2023-05-12 03:48:19.124 [main][3962] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+2023-05-12 03:48:19.124 [main][3962] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-05-12 03:48:19.124 [main][3962] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-12 03:48:19.125 [main][3963] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-12 03:48:19.139 [main][3977] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-05-12 03:48:19.139 [main][3977] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-12 03:48:19.139 [main][3977] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-12 03:48:19.474 [Forwarding newSession on session null to remote][4312] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 16324 (auto-detected)
+2023-05-12 03:48:19.478 [Forwarding newSession on session null to remote][4316] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-05-12 03:48:19.478 [Forwarding newSession on session null to remote][4316] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-05-12 03:48:19.686 [Forwarding newSession on session null to remote][4524] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-12 03:48:19.687 [Forwarding newSession on session null to remote][4525] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-12 03:48:19.706 [Forwarding newSession on session null to remote][4544] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 98:43:fa:ff:fe:25:70:e2 (auto-detected)
+2023-05-12 03:48:19.779 [AsyncHttpClient-1-2][4617] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-05-12 03:48:19.780 [AsyncHttpClient-1-2][4618] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-05-12 03:48:19.780 [AsyncHttpClient-1-2][4618] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1f24ff49
+2023-05-12 03:48:19.819 [AsyncHttpClient-1-2][4657] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-12 03:48:19.819 [AsyncHttpClient-1-2][4657] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-05-12 03:48:19.819 [AsyncHttpClient-1-2][4657] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-05-12 03:48:19.819 [AsyncHttpClient-1-2][4657] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-05-12 03:48:19.819 [AsyncHttpClient-1-2][4657] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-05-12 03:48:20.479 [AsyncHttpClient-1-2][5317] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-12 03:48:20.633 [main][5471] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x712de585736c0e85
+2023-05-12 03:48:21.854 [main][6692] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 03:48:22.173 [main][7011] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 03:48:22.247 [main][7085] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 03:48:22.298 [main][7136] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 03:48:22.570 [main][7408] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials------
+2023-05-12 03:48:22.577 [main][7415] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-12 03:48:24.798 [main][9636] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 03:48:25.090 [main][9928] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 03:48:25.158 [main][9996] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 03:48:25.195 [main][10033] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 03:48:25.470 [main][10308] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-12 03:48:25.475 [main][10313] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-12 03:48:28.014 [main][12852] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 03:48:28.328 [main][13166] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 03:48:28.400 [main][13238] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 03:48:28.437 [main][13275] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 03:48:28.640 [main][13478] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-12 03:48:28.644 [main][13482] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials for multiple users-------
+2023-05-12 03:48:30.719 [main][15557] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 03:48:31.012 [main][15850] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 03:48:31.088 [main][15926] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 03:48:31.129 [main][15967] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 03:48:31.371 [main][16209] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials for multiple users------
+2023-05-12 03:48:31.378 [main][16216] INFO  step_definitions.Hooks - --------Scenario: Check login is successful with valid credentials-------
+2023-05-12 03:48:33.237 [main][18075] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 03:48:33.546 [main][18384] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 03:48:33.637 [main][18475] INFO  step_definitions.LoginSteps - User clicking on the login button
+2023-05-12 03:48:33.692 [main][18530] INFO  step_definitions.LoginSteps - User is in Home Page
+2023-05-12 03:48:33.969 [main][18807] INFO  step_definitions.Hooks - -------Scenario: Check login is successful with valid credentials------
+2023-05-12 03:48:33.974 [main][18812] INFO  step_definitions.Hooks - --------Scenario: Check login is unsuccessful with invalid credentials-------
+2023-05-12 03:48:35.992 [main][20830] INFO  step_definitions.LoginSteps - user is in the login page
+2023-05-12 03:48:36.285 [main][21123] INFO  step_definitions.LoginSteps - User has entered credentials
+2023-05-12 03:48:36.348 [main][21186] INFO  step_definitions.LoginSteps - User click on the login button
+2023-05-12 03:48:36.393 [main][21231] INFO  step_definitions.LoginSteps - User is still in login page
+2023-05-12 03:48:36.694 [main][21532] INFO  step_definitions.Hooks - -------Scenario: Check login is unsuccessful with invalid credentials------
+2023-05-12 03:48:36.702 [main][21540] INFO  step_definitions.Hooks - --------Scenario: Calculator Real APR Rate-------
+2023-05-12 03:48:39.387 [main][24225] INFO  step_definitions.MortgageSteps - User is in the Mortgage Calculator Home page
+2023-05-12 03:48:39.393 [main][24231] DEBUG page_object.NavigationBar - mouse hover to the rates link
+2023-05-12 03:48:39.605 [main][24443] DEBUG page_object.NavigationBar - Clicking on the Real APR link
+2023-05-12 03:48:40.674 [main][25512] DEBUG page_object.RealApr - Waiting for the page to load
+2023-05-12 03:48:40.940 [main][25778] INFO  step_definitions.MortgageSteps - Navigate to Real Apr page
+2023-05-12 03:48:40.941 [main][25779] DEBUG page_object.RealApr - Typing the Home Price Value:200000
+2023-05-12 03:48:41.465 [main][26303] DEBUG page_object.RealApr - Typing the down payment value:15000
+2023-05-12 03:48:41.873 [main][26711] DEBUG page_object.RealApr - Typing the InterestRate Value:3
+2023-05-12 03:48:42.407 [main][27245] DEBUG page_object.RealApr - Clicking on calculate button
+2023-05-12 03:48:43.490 [main][28328] INFO  step_definitions.MortgageSteps - Real APR rate is calculated upon entering the data
+2023-05-12 03:48:43.491 [main][28329] DEBUG page_object.RealApr - Validate the real APR rate is:3.139%
+2023-05-12 03:48:43.809 [main][28647] INFO  step_definitions.MortgageSteps - Real APR rate: 3.139% is validated
+2023-05-12 03:48:44.047 [main][28885] INFO  step_definitions.Hooks - -------Scenario: Calculator Real APR Rate------
+2023-05-12 03:48:44.051 [main][28889] INFO  step_definitions.Hooks - --------Scenario: Calculate Monthly Payment Mortgage-------
+2023-05-12 03:48:46.819 [main][31657] INFO  step_definitions.MortgageSteps - User is in the Mortgage Calculator Home page
+2023-05-12 03:48:46.820 [main][31658] DEBUG page_object.Home - Typing the Home Price Value:300000
+2023-05-12 03:48:47.139 [main][31977] DEBUG page_object.Home - Typing the DownPayment Value:60000
+2023-05-12 03:48:47.281 [main][32119] DEBUG page_object.Home - Typing the Loan Amount Value:240000
+2023-05-12 03:48:47.429 [main][32267] DEBUG page_object.Home - Typing the InterestRate Value:3
+2023-05-12 03:48:47.569 [main][32407] DEBUG page_object.Home - Typing the loan start year value: 30
+2023-05-12 03:48:47.704 [main][32542] DEBUG page_object.Home - Typing the property tax: 5000
+2023-05-12 03:48:47.856 [main][32694] DEBUG page_object.Home - Typing the PMI:0.5
+2023-05-12 03:48:48.022 [main][32860] DEBUG page_object.Home - Typing the HOI:1000
+2023-05-12 03:48:48.145 [main][32983] DEBUG page_object.Home - Typing the Monthly HOA:100
+2023-05-12 03:48:48.255 [main][33093] DEBUG page_object.Home - Select the loan type:FHA
+2023-05-12 03:48:48.378 [main][33216] DEBUG page_object.Home - Clicking on calculate button
+2023-05-12 03:48:49.388 [main][34226] INFO  step_definitions.MortgageSteps - Total Monthly payment is calculated upon entering the data
+2023-05-12 03:48:49.389 [main][34227] DEBUG page_object.Home - Validating the total monthly payment is :$1611.85
+2023-05-12 03:49:04.695 [main][49533] INFO  step_definitions.Hooks - -------Scenario: Calculate Monthly Payment Mortgage------

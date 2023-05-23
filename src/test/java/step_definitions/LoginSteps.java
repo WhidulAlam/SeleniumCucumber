@@ -1,4 +1,4 @@
-package step_definations;
+package step_definitions;
 
 import command_providers.ActOn;
 import command_providers.AssertThat;
@@ -10,31 +10,44 @@ import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import utilities.ReadConfigFiles;
 
+import java.util.List;
+import java.util.Map;
+
 public class LoginSteps {
     private static final By FullName = By.id("name");
     private static final By Password = By.id("password");
     private static final By Login = By.id("login");
     private static final By Logout = By.id("logout");
+    private static final By InvalidPassword = By.xpath("//*[text()='Password is invalid']");
 
     public static Logger LOGGER= LogManager.getLogger(LoginSteps.class);
-    WebDriver driver;
+    WebDriver driver = Hooks.driver;
 
     @Given("^a user is on the login page$")
+    public void navigateToLoginPage(){
+        ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("TestAppURL"));
+        LOGGER.info("user is in the login page");
+    }
+
+//Before Hook Class we used this Method
+
+   /* @Given("^a user is on the login page$")
     public void navigateToLoginPage(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("----remote-allow-origin=*");
         driver = new ChromeDriver();
-        ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("https://example.testproject.io/web/"));
+        ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("TestAppURL"));
         LOGGER.info("user is on the login page");
-    }
+    }*/
+
+
 //    Previous-one
 //    @When("^user enters username and password$")
 //    public void enterUserCredentials(){
@@ -53,6 +66,15 @@ public class LoginSteps {
 
     @When("^user click on login button upon entering credentials$")
     public void ClickOnLoginUponEnteringCredential(DataTable table){
+        List<Map<String, String>>data = table.asMaps(String.class, String.class);
+        for (Map<String, String> cells: data) {
+            ActOn.element(driver, FullName).setValue(cells.get("username"));
+            ActOn.element(driver, Password).setValue(cells.get("password"));
+            LOGGER.info("User has entered credentials");
+
+            ActOn.element(driver, Login).click();
+            LOGGER.info("User clicking on the login button");
+        }
 
     }
 
@@ -66,6 +88,13 @@ public class LoginSteps {
     public void validateUserIsLoggedSuccessfully(){
         AssertThat.elementAssertions(driver, Logout).elementIsDisplayed();
         LOGGER.info("User is in Home Page");
-        ActOn.browser(driver).closeBrowser();
+        //Before Hook Class we used this Method Her is ActOn.browser(driver).closeBrowser()
+    }
+
+    @Then("^user is failed to login$")
+    public void validateUserIsFailedToLogin(){
+        AssertThat.elementAssertions(driver, InvalidPassword).elementIsDisplayed();
+        LOGGER.info("User is still in login page");
+        //Before Hook Class we used this Method Here is ActOn.browser(driver).closeBrowser()
     }
 }

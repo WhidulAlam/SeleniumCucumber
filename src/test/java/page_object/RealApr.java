@@ -3,9 +3,9 @@ package page_object;
 import command_providers.ActOn;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 public class RealApr extends NavigationBar {
     private final By CalculatorTab= By.xpath("//label[text()='Calculator']");
@@ -60,7 +60,8 @@ public class RealApr extends NavigationBar {
     public RealApr validateRealAprRate(String expectedValue){
         LOGGER.debug("Validate the real APR rate is:" + expectedValue);
         String actualRealAprRate= ActOn.element(driver, ActualAprRate).getTextValue();
-        Assert.assertEquals(actualRealAprRate, expectedValue);
+        //Assert.assertEquals(actualRealAprRate, expectedValue);
+        Assert.assertEquals(expectedValue, actualRealAprRate);
         return this;
     }
 }
